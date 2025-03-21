@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+
+nav{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+ul,li{
+    display: inline;
+    color: grey;
+    cursor: pointer;
+    
+}
+li:hover
+{
+    color: white;
+}
+
+.products{
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    display: inline-block;
+    width: 200px;
+    height: 100px;
+}
+
+.box:hover{
+    background-color: black;
+    color: white;
+}
